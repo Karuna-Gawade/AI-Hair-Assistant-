@@ -58,6 +58,7 @@ The frontend and system flow are fully implemented. AI integration logic is comp
 ---
 
 ## Screenshots of the MVP
+![image alt](https://github.com/Karuna-Gawade/AI-Hair-Assistant-/blob/96d1642df93bda19dc0facc626c7218ec34614ea/signup.png)
 ![image alt](https://github.com/Karuna-Gawade/AI-Hair-Assistant-/blob/f08c503c59c7055f0604a63ec5f3738311227b57/login.png)
 ---
 
