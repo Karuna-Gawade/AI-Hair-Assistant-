@@ -5,7 +5,7 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAgCQd9jyG8ZSQeOdL6bzuiQaH2MJCh06I",
+  apiKey: "api key",
   authDomain: "ai-hair-assistant.firebaseapp.com",
   projectId: "ai-hair-assistant",
   storageBucket: "ai-hair-assistant.firebasestorage.app",
@@ -19,6 +19,7 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 
 export { auth, db };
+
 
 
 
