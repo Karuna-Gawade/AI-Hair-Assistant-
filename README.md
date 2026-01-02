@@ -33,13 +33,14 @@ AI-Hair Assistant solves this problem by analyzing user inputs and generating st
 
 ---
 
-## Process Flow
-1. User logs in or signs up  
-2. User enters hair details  
-3. System validates the input  
-4. Data is sent to the AI model  
-5. AI generates a personalized routine  
-6. Routine is displayed to the user  
+## Process Flow and Architecture
+1.User logs in or signs up (Firebase Authentication)
+2.User enters hair details
+3.System validates the input (Firebase)
+4.Data is sent to the AI model (Google Gemini API)
+5.AI generates a personalized routine
+6.Routine is displayed to the user (Frontend)
+Website is hosted online via Firebase Hosting
 
 ---
 
