@@ -75,7 +75,7 @@ Hair Problems: ${problems.join(", ")}
 Climate: ${climate}
 Wash Frequency: ${washFrequency}
 
-Provide a detailed daily and weekly routine, including shampoo, conditioner, treatments, and tips. 
+Provide a detailed daily and weekly routine including hair wash time table, shampoo, conditioner, medical treatments, diet plan and exercise . 
 Write in simple, clear language suitable for a user to follow.`;
   // Call Gemini API
   try {
@@ -94,4 +94,5 @@ Write in simple, clear language suitable for a user to follow.`;
   }
 }); });  
  
+
 
