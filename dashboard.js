@@ -79,7 +79,7 @@ Provide a detailed daily and weekly routine, including shampoo, conditioner, tre
 Write in simple, clear language suitable for a user to follow.`;
   // Call Gemini API
   try {
-    const response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyDKKq9NjYaR9Ck_3vseba-GFB1mQGC3JT4", {
+    const response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=api key", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
@@ -94,3 +94,4 @@ Write in simple, clear language suitable for a user to follow.`;
   }
 }); });  
  
+
